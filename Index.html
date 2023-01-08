@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Challenge #1- Encriptador de Texto </title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="javascript.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img class="logoimagen" src="imagenes/icon.png">
+                <h1 class="title">Encriptador de mensajes</h1>
+            </div>
+            <div class="left">
+                <input class="text-input" id= "input-texto" type="text" placeholder="Ingrese el texto aqui">
+            </div>
+            <div class="right">
+                <img id="imagenderecha" src="imagenes/Muñeco.png">
+                <h1 id="texto1"> Ningun mensaje fue encontrado</h1>
+                <p id="texto2">Ingrese el texto que desee encriptar o desencriptar</p>
+                <button id="copiar" type="button" name="button" onclick= "copiar()">Copiar</button>
+            
+            </div>
+            <div class="left-button">
+                <p>Solo minusculas y sin acentos</p>
+                <button type="button" id="button-encriptar" onclick= "encriptar()">Encriptar</button>
+                <button type="button" id="button-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                Created by Jeilyn Vargas Jimenez
+            </div>
+        </footer>
+    </body>   
+ </html>    
